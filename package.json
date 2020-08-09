@@ -1,12 +1,15 @@
 {
   "name": "create-react-rover",
   "version": "1.0.1",
-  "description": "",
+  "description": "bootstrapper CLI for React App with basic conf for Caprover deployment.",
   "main": "index.js",
+  "bin": {
+    "create-react-rover": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Basile V.",
+  "author": "Basile V. <basile64.v@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.0",
@@ -14,7 +17,8 @@
     "figlet": "^1.5.0",
     "ora": "^5.0.0"
   },
-  "bin": {
-    "create-react-rover": "index.js"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Karnak19/create-react-rover.git"
   }
 }
