@@ -1,6 +1,6 @@
 {
   "name": "create-react-rover",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "bootstrapper CLI for React App with basic conf for Caprover deployment.",
   "main": "index.js",
   "bin": {
