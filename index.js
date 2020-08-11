@@ -54,6 +54,7 @@ const packageDeps = {
   "react-router": { packages: ["react-router-dom"], id: "e98ca3712bdaa650ce1cf625aa90e495" },
   redux: { packages: ["redux", "react-redux"], id: "" },
   recoil: { packages: ["recoil"], id: "" },
+  "prop-types": { packages: ["prop-types"], id: "" },
 };
 
 (async () => {
