@@ -43,7 +43,7 @@ const promptEnd = () => {
 if (!name || name.match(/[<>:"\/\\|?*\x00-\x1F]/)) {
   return console.log(`
   ${chalk.red("Invalid directory name.")}
-  Usage: create-express-api name-of-api  
+  Usage: create-react-rover my-app  
 `);
 }
 
