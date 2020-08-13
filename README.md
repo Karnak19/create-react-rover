@@ -41,6 +41,12 @@ git push -u origin production
 Then setup your Caprover app
 ![](https://i.imgur.com/v7zrDoK.png)
 
+## Extra dependencies
+
+You can add some extra dependencies during the install prompt.
+
+Currently, only the react-router one provides template files with it !
+
 ## GitHub Actions
 
 The template project use GitHub Actions for two things:
